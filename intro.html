@@ -1,31 +1,78 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merak - Velas Personalizadas</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace al CSS -->
-</head>
-<body>
-    <header>Merak - Velas Personalizadas</header>
-    
-    <section>
-        <h2>¿Quiénes Somos?</h2>
-        <p>En Merak creamos velas personalizadas para conectar con tu lado espiritual y hacer de cada momento algo especial.</p>
-    </section>
-    
-    <section>
-        <h2>Productos</h2>
-        <div class="productos">
-            <div class="producto">
-                <h3>Vela Gratitud</h3>
-                <p>Aroma a vainilla y lavanda.</p>
-            </div>
-            <div class="producto">
-                <h3>Vela Prosperidad</h3>
-                <p>Fragancia de canela y cítricos.</p>
-            </div>
-        </div>
-    </section>
-</body>
-</html>
+body {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f0e3;
+    color: #4a4a4a;
+}
+
+header {
+    background-color: #d8a7b1;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #b5838d;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e1b5bd;
+    transition: transform 0.3s ease-in-out;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.mision-vision {
+    background: #f1d6db;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mision-vision h2 {
+    color: #6d6875;
+}
+
+footer {
+    background: #4a4a4a;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+}
